@@ -1,0 +1,54 @@
+body {
+    font-family: Roboto;
+    color: #212121;
+}
+.logo {
+    font-family: Raleway;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 26px;
+    line-height: 31px;
+    line-height: 100%;
+    vertical-align: top;
+    letter-spacing: 3%;
+    text-decoration: none;
+    color : #000000;
+}
+
+.logo-color {
+    color: #2196F3;
+}
+
+.tel {
+    font-family: Roboto;
+    font-weight: 500;
+    font-style: medium;
+    font-size: 14px;
+    line-height: 16px;
+    line-height: 100%;
+    vertical-align: top;
+    letter-spacing: 2%;
+    color: #757575;
+    text-decoration: none;
+}
+
+.mail {
+    font-family: Roboto;
+    font-weight: 500;
+    font-style: medium;
+    font-size: 14px;
+    line-height: 16px;
+    line-height: 100%;
+    vertical-align: top;
+    letter-spacing: 2%;
+    text-decoration: none;
+    color: #757575;
+}
+
+.mail:hover {
+    color: #2196F3;
+}
+
+.tel:hover {
+    color: #2196F3;
+}
