@@ -1,3 +1,7 @@
+h1,h2,h3,p,ul{
+    margin:0;
+    padding:0;
+}
 body {
     font-family: Roboto;
     --headline-color: #212121;
@@ -28,6 +32,7 @@ body {
     letter-spacing: 3%;
     text-decoration: none;
     color : #000000;
+    padding: 0px;
 }
 
 .logo-color {
@@ -267,6 +272,7 @@ body {
 .page-footer-section {
     width: 1170px;
     margin: 0 auto;
+    padding: 20px;
 }
 
 .page-footer-section > .logo {
