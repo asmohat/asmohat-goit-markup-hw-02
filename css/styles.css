@@ -25,15 +25,17 @@ body {
     font-weight: 700;
     font-style: bold;
     font-size: 26px;
-    line-height: 31px;
-    line-height: 100%;
+    line-height: 1.2;
     text-align: left;
     vertical-align: top;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
     text-decoration: none;
     color : #000000;
+    display: inline-block;
     padding: 0px;
+    margin-right: 90px;
 }
+
 
 .logo-color {
     color: var(--brand-color);
@@ -50,11 +52,10 @@ body {
     font-weight: 500;
     font-style: medium;
     font-size: 14px;
-    line-height: 16px;
-    line-height: 100%;
+    line-height: 1.15;
     text-align: left;
     vertical-align: top;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
 }
 
 .site-nav-list-item-link:hover, .site-nav-list-item-link:focus {
@@ -66,13 +67,13 @@ body {
     font-weight: 500;
     font-style: medium;
     font-size: 14px;
-    line-height: 16px;
-    line-height: 100%;
+    line-height: 1.15;
     text-align: left;
     vertical-align: top;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     color: var(--article-color);
     text-decoration: none;
+    margin-right: 50px;
 }
 
 .mail {
@@ -80,11 +81,10 @@ body {
     font-weight: 500;
     font-style: medium;
     font-size: 14px;
-    line-height: 16px;
-    line-height: 100%;
+    line-height: 1.15;
     text-align: left;
     vertical-align: top;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     text-decoration: none;
     color: var(--article-color);
 }
@@ -113,12 +113,11 @@ body {
     font-family: Roboto;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
-    line-height: 116%;
-    text-align: center;
-    vertical-align: Top;
-    letter-spacing: 6%;
+    line-height: 1.34;
+    vertical-align: top;
+    letter-spacing: 0.06em;
     color: #ffffff;
+    margin-bottom: 40px;
     padding: 200px 450px 30px 450px;
 }
 
@@ -127,14 +126,11 @@ body {
     font-weight: 700;
     font-style: bold;
     font-size: 16px;
-    line-height: 30px;
-    line-height: 160%;
-    text-align: center;
+    line-height: 1.87;
     vertical-align: center;
-    letter-spacing: 6%;
-    width: 170px;
+    letter-spacing: 0.06em;
+    min-width: 170px;
     height: 50px;
-    margin: 0 725px 200px 725px;
     color: #ffffff;
     background-color: var(--brand-color);
     border: none;
@@ -161,11 +157,13 @@ body {
     font-style: bold;
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
-    line-height: 100%;
+    line-height: 1.2;
     text-align:left;
-    vertical-align: Top;
-    letter-spacing: 3%;
+    vertical-align: top;
+    letter-spacing: 0.03em;
+    display: inline-block;
+    margin-bottom: 10px;
+    text-transform: uppercase;
 }
 
 .qualities-list-item-article-text {
@@ -173,28 +171,29 @@ body {
     font-family: Roboto;
     font-style: bold;
     font-size: 14px;
-    line-height: 24px;
-    line-height: 146%;
+    line-height: 1.71;
     text-align:left;
-    vertical-align: Top;
-    letter-spacing: 3%;
+    vertical-align: top;
+    letter-spacing: 0.03em;
 }
+
 /* четверта секція */
 .employment {
     width: 1170px;
     margin: 0 auto;
 }
+
 .employment-headline {
     color: var(--headline-color);
     font-family: Roboto;
     font-style: bold;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
-    line-height: 100%;
-    text-align: center;
+    line-height: 1.17;
     vertical-align: Top;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
+    display: inline-block;
+    margin-bottom: 50px;
 }
 
 .employment-list {
@@ -218,12 +217,13 @@ body {
     font-style: bold;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
-    line-height: 100%;
+    line-height: 1.17;
     text-align: center;
     vertical-align: top;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
+    margin-bottom: 55px;
 }
+
 .team-list {
     list-style: none;
     margin: 0 auto;
@@ -239,11 +239,11 @@ body {
     font-style: bold;
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
-    line-height: 100%;
+    line-height: 1.19;
     text-align: center;
     vertical-align: top;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
+    margin-bottom: 10px;
 }
 
 .team-list-item-image {
@@ -254,12 +254,10 @@ body {
     color: var(--article-color);
     font-family: Roboto;    
     font-size: 16px;
-    line-height: 19px;
-    line-height: 100%;
+    line-height: 1.19;
     text-align: center;
     vertical-align: top;
-    letter-spacing: 3%;
-
+    letter-spacing: 0.03em;
 }
 
 
@@ -268,6 +266,35 @@ body {
     background-color: #2f303a;
     width: 1600px;
     height: 150px;
+}
+
+.footer-logo {
+    color: #ffffff;
+    font-family: Raleway;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 26px;
+    line-height: 1.2;
+    text-align: left;
+    vertical-align: top;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.page-footer-adress {
+    color: #ffffff;
+    display: inline-block;
+    margin-bottom: 10px;
+    font-family: Roboto;
+    font-style: regular;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    text-align: left;
+    vertical-align: top;
+    letter-spacing: 0.03em;
 }
 
 .page-footer-section {
@@ -315,15 +342,15 @@ body {
     font-style: medium;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
-    line-height: 139%;
+    line-height: 1.62;
     text-align: center;
     vertical-align: top;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
     padding: 5px 20px;
     margin: 5px;
     cursor: pointer;
 }
+
 
 .portfolio-list-item-button:hover,
 .portfolio-list-item-button:focus {
@@ -342,20 +369,24 @@ body {
     font-style: bold;
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
-    line-height: 171%;
+    line-height: 2;
     text-align: left;
     vertical-align: top;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
+    margin-left: 25px;
+    margin-bottom: 10px;
 }
 
 .portfolio-projects-item-text {
     font-family: Roboto;
     font-size: 16px;
-    line-height: 30px;
-    line-height: 160%;
+    line-height: 1.87;
     text-align: left;
     vertical-align: top;
-    letter-spacing: 3%;
-    color: var(--article-color)
+    letter-spacing: 0.03em;
+    color: var(--article-color);
+    display: inline-block;
+    margin-left: 25px;
+    margin-bottom: 20px;
 }
+
